@@ -1,7 +1,7 @@
 @echo off
 cd /d "%~dp0"
 
-set JAR=Aplicacao-1.0-SNAPSHOT.jar
+set JAR=aplicativo.jar
 if not exist "%JAR%" (
     echo Nao encontrei %JAR% nesta pasta.
     echo Coloque este .bat na mesma pasta do .jar.
