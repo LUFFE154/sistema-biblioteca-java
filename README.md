@@ -4,8 +4,6 @@ Trabalho de Programação Orientada a Objetos em Java. Sistema de terminal para 
 
 ## Como rodar
 
-Precisa ter **Java 11+** instalado.
-
 **Windows:** duplo clique em `executar.bat`.
 
 **Linux / macOS:**
@@ -35,16 +33,23 @@ java -Dapp.qol=false -jar aplicativo.jar
 ## Estrutura
 
 ```text
-├── aplicacao/          # código-fonte (.java)
-├── aplicativo.jar      # executável pronto
-├── executar.bat        # roda no Windows
+sistema_biblioteca_java/
+├── aplicacao/
+│   ├── Aplicacao.java
+│   ├── Biblioteca.java
+│   ├── Emprestimo.java
+│   ├── ItemEmprestimo.java
+│   ├── Leitor.java
+│   └── Livro.java
+├── LICENSE
 ├── README.md
-└── LICENSE
+├── aplicativo.jar
+└── executar.bat
 ```
 
 ## Autor
 
-Luiz
+Luiz Fernando Pio Ferreira
 
 ## Licença
 
