@@ -34,17 +34,19 @@ java -Dapp.qol=false -jar aplicativo.jar
 
 ```text
 sistema_biblioteca_java/
-├── aplicacao/
-│   ├── Aplicacao.java
-│   ├── Biblioteca.java
-│   ├── Emprestimo.java
-│   ├── ItemEmprestimo.java
-│   ├── Leitor.java
-│   └── Livro.java
-├── LICENSE
+├── com/
+│   └── mycompany/
+│       └── aplicacao/          # Código-fonte do sistema
+│           ├── Aplicacao.java
+│           ├── Biblioteca.java
+│           ├── Emprestimo.java
+│           ├── ItemEmprestimo.java
+│           ├── Leitor.java
+│           └── Livro.java
+├── aplicativo.jar      # Executável pronto para rodar
+├── executar.bat        # Atalho para Windows
 ├── README.md
-├── aplicativo.jar
-└── executar.bat
+└── LICENSE
 ```
 
 ## Autor
